@@ -9,7 +9,8 @@ Estimating the 6D pose of transparent objects remains a challenging task due to 
 The estimated 6D pose and object size are transformed into a robot-executable grasp through a predefined mapping strategy. The translation and rotation predicted in the camera coordinate system are first converted into the robot base frame via hand–eye calibration. The estimated size determines the gripper opening width with a small clearance margin. Depending on the object’s orientation relative to the table, the system generates a limited set of candidate grasps, typically a top-down grasp when vertical clearance allows or side grasps aligned with the object’s principal axes otherwise. Each candidate is evaluated against table clearance, gripper limits, and kinematic feasibility, and the most suitable option is selected.
 
 # Visualizations
-<img width="1394" height="1049" alt="aac19025-0937-4918-a13f-1720529502e1" src="https://github.com/user-attachments/assets/124a33c1-54f9-4072-b9af-fd16e6da93ee" />
+<img src="https://github.com/user-attachments/assets/124a33c1-54f9-4072-b9af-fd16e6da93ee" width="600" />
+
 
 
 
